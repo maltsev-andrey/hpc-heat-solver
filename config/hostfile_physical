@@ -1,0 +1,7 @@
+# New hostfile_physical for testing
+srv-hpc-01 slots=1  # Head node (coordination)
+srv-hpc-02 slots=6  # Compute node 1
+srv-hpc-03 slots=6  # Compute node 2
+srv-hpc-04 slots=6  # Compute node 3
+srv-hpc-05 slots=6  # Compute node 4
+# Total: 25 slots (24 compute + 1 head)

@@ -1,0 +1,27 @@
+Heat Solver - Working Version
+Global grid: 1024 x 1024
+Processes: 24
+Local grid: ~43 x 1024
+----------------------------------------
+Progress: 10%
+Progress: 20%
+Progress: 30%
+Progress: 40%
+Progress: 50%
+Progress: 60%
+Progress: 70%
+Progress: 80%
+Progress: 90%
+Progress: 100%
+
+==================================================
+Performance Summary
+==================================================
+Grid size: 1024 x 1024
+Processes: 24
+Time steps: 1000
+Total time: 2.210 seconds
+Updates/sec: 4.75e+08
+Time per step: 2.210 ms
+Center temperature: 47.82°C
+==================================================
