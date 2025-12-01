@@ -21,9 +21,9 @@ This project implements a parallel solver for the 1D heat diffusion equation usi
 - Boundary conditions: Top = 100°C (hot), Others = 0°C (cold)
 
 ### Cluster Architecture Design
+![Cluster Architecture](docs/HPC.drawio.png) 
 
 ```
-![Cluster Architecture](docs/HPC.drawio.png) 
 HPC Cluster - 27 Nodes Total
 ├── Core Cluster (RHEL 9.5)
 │   ├── srv-hpc-01 (Head Node)
