@@ -23,28 +23,7 @@ This project implements a parallel solver for the 1D heat diffusion equation usi
 ### Cluster Architecture Design
 
 ```
-┌───────────────────────────────────────────┐
-│             External Network              │
-│              170.168.1.0/24               │
-└───────────────────────────────────────────┘
-                       │
-              ┌────────┴────────┐
-              │   srv-hpc-01    │  Head Node
-              │  (NFS Server)   │  - Job scheduling
-              │  (SSH Gateway)  │  - Storage management
-              └────────┬────────┘
-                       │
-      ┌────────────────┼──────────────┐
-      │   Internal Cluster Network    │
-      │      10.10.10.0/24            │
-      └────┬─────┬─────┬──────┬───────┘
-           │     │     │      │
-       ┌───┴─┐ ┌─┴──┐ ┌┴───┐ ┌┴────┐
-       │02   │ │03  │ │04  │ │05   │  Compute Nodes
-       │6cpu │ │6cpu│ │6cpu│ │6cpu │  - Pure computation
-       └─────┘ └────┘ └────┘ └─────┘  - Isolated network
-
-
+![Cluster Architecture](docs/HPC.drawio.png) 
 HPC Cluster - 27 Nodes Total
 ├── Core Cluster (RHEL 9.5)
 │   ├── srv-hpc-01 (Head Node)
