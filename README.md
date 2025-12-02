@@ -248,8 +248,8 @@ viz.plot_performance_scaling(nodes, times)
 
 ## Contributors
 
-- **Andrey** - Cluster architect, HPC infrastructure, testing
-- **Assistant** - Algorithm development, debugging, documentation
+- **Andrey Maltsev** - Cluster architect, HPC infrastructure, testing
+- **Andrey Maltsev** - Algorithm development, debugging, documentation
 
 ## License
 
